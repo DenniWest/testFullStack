@@ -62,6 +62,7 @@ const Body = () => {
           <Step stepNumber={3} title="Special Offer" imageSrc="/src/assets/step3.png" />
           <Step stepNumber={4} title="Confirmation" imageSrc="/src/assets/step4.png" />
         </div>
+        <br />
         <Grid container direction="row" justifyContent="center" alignItems="flex-start" spacing={1}>
           <Grid item xs={12} md={6}>
             {/* si la pantalla es movil esta en true lo muestra */}
@@ -78,7 +79,7 @@ const Body = () => {
 
               </>
             )}
-           <img src="src\assets\publicidad.png" alt="" className="imagen1" />
+           <img src="\src\assets\publicidad.png" alt="" className="imagen1" />
             {!isMobile && (
               <Grid xs={12} md={12}>
                 <Box
