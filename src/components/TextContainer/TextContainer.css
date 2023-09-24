@@ -1,0 +1,12 @@
+/* TextContainer.css */
+.titulo {
+    width: 636px;
+    height: 76px;
+    top: 135px;
+    left: 432.5px;
+    gap: 24px;
+    background-color: #f0f0f0; /* Cambia el color de fondo según tus preferencias */
+    padding: 20px; /* Añade espaciado al contenido del contenedor */
+    position: absolute;
+  }
+  

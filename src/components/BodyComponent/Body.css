@@ -1,0 +1,26 @@
+.imagen1 {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+
+}
+
+.imagen2 {
+    width: 237px;
+    height: 48px;
+    gap: 13px;
+
+}
+
+.imagen3 {
+    width: 134px;
+    height:134px;
+    top: 0.5px;
+    border-radius: 10px;
+
+}
+
+
+
