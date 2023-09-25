@@ -2,6 +2,9 @@ import React from 'react';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
+import ImgClarifion2 from '../../assets/clarifion2.png';
+import ImgStart from '../../assets/start.png';
+import ImgDot from '../../assets/dot.png';
 
 const Logo = () => {
   return (
@@ -9,7 +12,7 @@ const Logo = () => {
       {/* Columna izquierda para la imagen */}
       <Grid item xs={4}>
         <Box sx={{ background: '#2C7EF8', borderRadius: '10px' }}>
-          <img src="\src\assets\clarifion2.png" alt="Logo" width={134} height={134} />
+          <img src={ImgClarifion2} alt="Logo" width="134px" height="134px" />
         </Box>
       </Grid>
 
@@ -27,14 +30,14 @@ const Logo = () => {
           {/* Espacio 2 */}
           <Grid item>
             <Box>
-              <img src="\src\assets\start.png" alt="Imagen" width={98} height={18} />
+              <img src={ImgStart} alt="Imagen" width={98} height={18} />
             </Box>
           </Grid>
           {/* Espacio 3 */}
           <Grid item>
             <Box>
               <Typography variant="body1">
-                <img src="\src\assets\dot.png" alt="Icono" width={16} height={16} /> 12 left in Stock
+                <img src={ImgDot} alt="Icono" width={16} height={16} /> 12 left in Stock
               </Typography>
             </Box>
           </Grid>

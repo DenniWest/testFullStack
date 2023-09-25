@@ -1,7 +1,7 @@
 import React from 'react';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
-
+import ImgSatisfaction from '../../assets/satisfaction.png'
 const Satisfaction = () => {
   return (
     <Grid
@@ -12,7 +12,7 @@ const Satisfaction = () => {
     >
       {/* Imagen */}
       <Grid item>
-        <img src="\src\assets\satisfaction.png" alt="Imagen" width={88} height={88} />
+        <img src={ImgSatisfaction} alt="Imagen" width={88} height={88} />
       </Grid>
 
       {/* Texto */}

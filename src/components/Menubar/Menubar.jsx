@@ -5,7 +5,10 @@ import { lime, purple } from '@mui/material/colors';
 import MenuIcon from '@mui/icons-material/Menu';
 import './Menubar.css';
 import Stepper from './Stepper';
-
+import Img1 from '../../assets/1.png';
+import Img2 from '../../assets/2.png';
+import Img3 from '../../assets/3.png';
+import Img4 from '../../assets/4.png';
 
 const theme = createTheme({
   palette: {
@@ -44,7 +47,7 @@ const Menubar = () => {
         <Grid container spacing={4}>
           <Grid item>
             <img
-              src='\src\assets\1.png'
+              src={Img1}
               alt='30-DAY SATISFACTION GUARANTEE'
               className="img-1"
             />
@@ -54,7 +57,7 @@ const Menubar = () => {
           </Grid>
           <Grid item>
             <img
-              src='\src\assets\2.png'
+              src={Img2}
               alt='FREE DELIVERY ON ORDERS OVER $40.00'
               className="img-1"
             />
@@ -64,7 +67,7 @@ const Menubar = () => {
           </Grid>
           <Grid item>
             <img
-              src='\src\assets\3.png'
+              src={Img3}
               alt='50.000+ HAPPY CUSTOMERS'
               className="img-1"
             />
@@ -74,7 +77,7 @@ const Menubar = () => {
           </Grid>
           <Grid item>
             <img
-              src='\src\assets\4.png'
+              src={Img4}
               alt='100% MONEY BACK GUARANTEE'
               className="img-1"
             />

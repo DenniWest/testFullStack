@@ -8,6 +8,12 @@ import SavePorcent from '../Save/SavePorcent';
 import ButtonClaim from '../ButtonClaim/ButtonClaim.jsx';
 import Satisfaction from '../Satisfation/Satisfaction';
 import './Body.css';
+import ImgPublicidad from '../../assets/publicidad.png';
+import ImgStep1 from '../../assets/step1.png';
+import ImgStep2 from '../../assets/step2.png';
+import ImgStep3 from '../../assets/step3.png';
+import ImgStep4 from '../../assets/step4.png';
+import ImgUser from '../../assets/user.png';
 
 const Body = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 600);
@@ -57,10 +63,10 @@ const Body = () => {
     <>
       <Container style={containerStyle}>
         <div className="stepers" style={{ display: 'flex', padding: '0 20px', justifyContent: 'space-between' }}>
-          <Step stepNumber={1} title="Cart Review" imageSrc="/src/assets/step1.png" />
-          <Step stepNumber={2} title="Checkout" imageSrc="/src/assets/step2.png" />
-          <Step stepNumber={3} title="Special Offer" imageSrc="/src/assets/step3.png" />
-          <Step stepNumber={4} title="Confirmation" imageSrc="/src/assets/step4.png" />
+          <Step stepNumber={1} title="Cart Review" imageSrc={ImgStep1} />
+          <Step stepNumber={2} title="Checkout" imageSrc={ImgStep2} />
+          <Step stepNumber={3} title="Special Offer" imageSrc={ImgStep3} />
+          <Step stepNumber={4} title="Confirmation" imageSrc={ImgStep4} />
         </div>
         <br />
         <Grid container direction="row" justifyContent="center" alignItems="flex-start" spacing={1}>
@@ -79,7 +85,9 @@ const Body = () => {
 
               </>
             )}
-           <img src="\src\assets\publicidad.png" alt="" className="imagen1" />
+           <img src={ImgPublicidad} alt="" className="imagen1" />
+           <br />
+           <br />
             {!isMobile && (
               <Grid xs={12} md={12}>
                 <Box
@@ -91,7 +99,7 @@ const Body = () => {
                     left: '40px',
                   }}
                 >
-                  <img src="src\assets\user.png" alt="" className="imagen2" />
+                  <img src={ImgUser} alt="" className="imagen2" />
                   <Typography sx={{ color: '#4D5254' }}>
                     “As soon as the Clarifions arrived I put one in my bedroom. This was late in the afternoon. When I went to the bedroom in the evening it smelled clean. When I went to bed I felt I could breathe better. Wonderful.”
                   </Typography>

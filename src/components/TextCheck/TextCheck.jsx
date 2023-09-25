@@ -1,7 +1,7 @@
 import React from 'react';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
-
+import ImgCheck from '../../assets/check.png';
 const TextCheck = () => {
   return (
     <Grid container direction="column" spacing={2}>
@@ -9,7 +9,7 @@ const TextCheck = () => {
       <Grid item container spacing={1} alignItems="center">
         <Grid item>
           {/* Puedes agregar una imagen de 22x22px aquí */}
-          <img src="\src\assets\check.png" alt="Icono" width={22} height={22} />
+          <img src={ImgCheck} alt="Icono" width={22} height={22} />
         </Grid>
         <Grid item>
           <Typography variant="body1" style={{ color: '#4D5254' }}>
@@ -22,7 +22,7 @@ const TextCheck = () => {
       <Grid item container spacing={1} alignItems="center">
         <Grid item>
           {/* Puedes agregar una imagen de 22x22px aquí */}
-          <img src="\src\assets\check.png" alt="Icono" width={22} height={22} />
+          <img src={ImgCheck} alt="Icono" width={22} height={22} />
         </Grid>
         <Grid item>
           <Typography variant="body1" style={{ color: '#4D5254' }}>
@@ -35,7 +35,7 @@ const TextCheck = () => {
       <Grid item container spacing={1} alignItems="center">
         <Grid item>
           {/* Puedes agregar una imagen de 22x22px aquí */}
-          <img src="\src\assets\check.png" alt="Icono" width={22} height={22} />
+          <img src={ImgCheck} alt="Icono" width={22} height={22} />
         </Grid>
         <Grid item>
           <Typography variant="body1" style={{ color: '#4D5254' }}>

@@ -1,7 +1,9 @@
 import React from 'react';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
-
+import ImgArrow from '../../assets/arrow.png';
+import ImgCandado from '../../assets/candado.png';
+import ImgBanks from '../../assets/banks.png';
 const ButtonClaim = () => {
   return (
     <Grid
@@ -38,7 +40,7 @@ const ButtonClaim = () => {
           Yes - Claim my discount 
         </span>
         {/* Puedes agregar un icono de flecha aquí */}
-        <img src="src\assets\arrow.PNG" alt="" />
+        <img src={ImgArrow} alt="" />
        
       </button>
 
@@ -85,10 +87,10 @@ const ButtonClaim = () => {
           }}
         >
           {/* Puedes agregar una imagen de 12x12px aquí */}
-          <img src="\src\assets\candado.png" alt="Icono" width={12} height={12} style={{ marginRight: '4px' }} />
+          <img src={ImgCandado} alt="Icono" width={12} height={12} style={{ marginRight: '4px' }} />
           Secure 256-bit SSL encryption.
         </Typography>
-        <img src="\src\assets\banks.png" alt="Icono" width={180} height={14} style={{ marginRight: '4px' }} />
+        <img src={ImgBanks} alt="Icono" width={180} height={14} style={{ marginRight: '4px' }} />
       </Grid>
 
       {/* Texto "No thanks, I don't want this" */}

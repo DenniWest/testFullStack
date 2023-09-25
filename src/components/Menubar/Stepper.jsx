@@ -6,23 +6,26 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import KeyboardArrowLeft from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
-
+import Img1 from '../../assets/1.png';
+import Img2 from '../../assets/2.png';
+import Img3 from '../../assets/3.png';
+import Img4 from '../../assets/4.png';
 const images = [
   {
     label: '30-DAY SATISFACTION GUARANTEE',
-    imgPath: '/src/assets/1.png',
+    imgPath: Img1,
   },
   {
     label: 'FREE DELIVERY ON ORDERS OVER $40.00',
-    imgPath: '/src/assets/2.png',
+    imgPath: Img2,
   },
   {
     label: '50.000+ HAPPY CUSTOMERS',
-    imgPath: '/src/assets/3.png',
+    imgPath: Img3,
   },
   {
     label: '100% MONEY BACK GUARANTEE',
-    imgPath: '/src/assets/4.png',
+    imgPath: Img4,
   },
 ];
 

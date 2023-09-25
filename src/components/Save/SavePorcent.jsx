@@ -1,7 +1,7 @@
 import React from 'react';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
-
+import ImgPorcent from '../../assets/procent.png';
 const SavePorcent = () => {
   return (
     <Grid
@@ -16,7 +16,7 @@ const SavePorcent = () => {
     >
       <Grid item>
         {/* Puedes agregar una imagen de 32x32px aquí */}
-        <img src="\src\assets\procent.png" alt="Icono" width={32} height={32} />
+        <img src={ImgPorcent} alt="Icono" width={32} height={32} />
       </Grid>
       <Grid item>
         <Typography variant="body1" style={{ fontFamily: 'Manrope', fontSize: 16, fontWeight: 400, lineHeight: '22px', letterSpacing: 0, textAlign: 'left' }}>
